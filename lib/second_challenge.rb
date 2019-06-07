@@ -7,9 +7,9 @@ def second_challenge
   }
 
   #code your solution here!
-  groceries.values do |grocery, data|
+  groceries.each do |grocery, data|
     data.each do |attribute, value|
-      
+      groceries[attribute].value
       binding.pry
     end 
   end
