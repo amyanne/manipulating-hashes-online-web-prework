@@ -11,7 +11,7 @@ def second_challenge
     data.values do |attribute, value|
     end 
   end
-groceries
+
   
 
 end
