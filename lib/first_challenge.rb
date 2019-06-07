@@ -13,7 +13,7 @@ def first_challenge
     }
   }
 
-  contacts
+  contacts.collect do |
 
 
   #remember to return your newly altered contacts hash!
