@@ -1,3 +1,4 @@
+require "pry"
 def first_challenge
   contacts = {
     "Jon Snow" => {
@@ -16,6 +17,7 @@ def first_challenge
   contacts.collect do |person, data|
     data.each do |attribute, value|
       contacts["Freddy Mercury"].delete_if{|key, value| key ="strawberry"}
+      binding.pry
     end 
   end
 contacts
