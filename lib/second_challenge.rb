@@ -8,7 +8,7 @@ def second_challenge
 
   #code your solution here!
   groceries.values do |grocery, data|
-    data.each do |attribute, value|
+    data.values do |attribute, value|
     end 
   end
 
