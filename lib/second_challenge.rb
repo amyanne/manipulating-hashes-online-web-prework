@@ -9,7 +9,7 @@ def second_challenge
   #code your solution here!
   groceries.each do |grocery, data|
     data.each do |attribute, value|
-      groceries.values
+      grocery_array = groceries.values
       binding.pry
     end 
   end
