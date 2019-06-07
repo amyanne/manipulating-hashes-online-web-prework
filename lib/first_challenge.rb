@@ -16,7 +16,7 @@ def first_challenge
 
   contacts.collect do |person, data|
     data.each do |attribute, value|
-      contacts["Freddy Mercury"][:favorite_icecream_flavors]["strawberry"].delete_if{|key, value| key ="strawberry"}
+      contacts["Freddy Mercury"][:favorite_icecream_flavors].delete_if{|key, value| key ="strawberry"}
       binding.pry
       
     end 
