@@ -10,7 +10,6 @@ def second_challenge
   groceries.each do |grocery, data|
     data.each do |attribute, value|
       grocery_array = groceries.values
-      binding.pry
     end 
   end
 
