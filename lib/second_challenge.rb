@@ -10,9 +10,8 @@ def second_challenge
   groceries.each do |grocery, data|
     data.each do |attribute, value|
       grocery_array = groceries.values
-      grocery_array.flatten
     end 
   end
   
-grocery_array
+grocery_array.flatten
 end
